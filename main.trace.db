@@ -4,3 +4,6 @@ INSTER INTO players VALUES('Bob', 90, 35, true) [42001-190]
 2015-11-02 11:32:28 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO PLAYERS VALUE[*]('Bob', 100, 25, TRUE) "; expected "., (, DIRECT, SORTED, DEFAULT, VALUES, SET, (, SELECT, FROM"; SQL statement:
 Insert into players value('Bob', 100, 25, true) [42001-190]
+2015-11-02 11:54:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO players VALUES([*]'Charlie, 100, 19, true)"; SQL statement:
+INSERT INTO players VALUES('Charlie, 100, 19, true) [42000-190]
